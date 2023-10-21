@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "../WeatherApp/Weather.css"
-import { BsSearch, BsFillCloudSnowFill, BsWind, BsFillMoonStarsFill, BsCloudMoon, BsFillCloudFill, BsFillCloudDrizzleFill, BsSnow2 } from "react-icons/bs"
+import { BsSearch, BsWind, BsFillMoonStarsFill, BsCloudMoon, BsFillCloudFill, BsFillCloudDrizzleFill, BsSnow2 } from "react-icons/bs"
 import { RiWaterPercentLine } from "react-icons/ri"
 import { IoMdSunny, IoIosPartlySunny, IoIosThunderstorm} from "react-icons/io"//sun
 import {  LiaCloudSolid, LiaCloudSunRainSolid } from "react-icons/lia"//scattered cloud
@@ -15,7 +15,7 @@ const WeatherApp = () => {
         speed:"18km/s"
     })
 let {place,temp,humidity,speed}=state
-    let api_key="2e94f3a8f2bb3b2208c7d4c29faea4bd";
+    let api_key="Past apiKey  of your weatherMap account ";
  const search=async()=>{
 const element1=document.getElementById("search");
 if(element1.value===''){
