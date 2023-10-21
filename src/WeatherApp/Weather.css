@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient( rgb(134, 236, 237),rgb(95, 68, 193));
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.searchContainer{
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.searchContainer input{
+height: 5vh;
+width: 30%;
+border-radius: 15px;
+border: none;
+}
+.searchContainer div{
+    width: 5vw;
+    height: 5vh;
+    background-color: white;
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.climateConatiner{
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+}
+.climateIcon {
+   
+width: 50vw;
+height: 25vh;
+color:white;
+margin-top: 3vh;
+}
+.Temperature{
+    width: 100%;
+    height: 15vh;
+    /* border: 2px solid pink; */
+    font-size: 5vw;
+    /* padding-top:7vh ; */
+    color: white;
+  display: flex;
+  justify-content: center;
+}
+.Place{
+    width: 100%;
+    height: 15vh;
+    /* border: 2px solid black; */
+    font-size: 5vw;
+    font-style: oblique;
+
+    display: flex;
+    /* padding-top:5vh ; */
+    color: white;
+  justify-content: center;
+  
+}
+.contentContainer{
+    width: 100%;
+    height: 20vh;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HumidityContainer{
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    gap: 2vw;
+    color: wheat;
+}
+.humidityIcon{
+   width: 10vw;
+   height: 5vh;
+   size: 100px;
+   color: aqua;
+}
+#hum{
+display: flex;
+justify-self: center;
+align-items: center;
+}
+#hum1{
+    padding-left: 10vw;
+    padding-bottom: 4vh;
+}
