@@ -23,7 +23,7 @@ export default UseMemo
 /*************
  * to avoid unneccessary re-rendering on the page .restrict them with the help of usememo hook  this speed of your
  * application instead of  usememeo if we use just normal function
- * then it will render the function even any changes in count state even we anre not touch evenNumber state
+ * then it will render the function even any changes in count state even we are not touch evenNumber state
  * below is example even we won't touch the evenNumber state but it will render the function we can see that by click the 
  * increment button  and the output in console
  * **************/

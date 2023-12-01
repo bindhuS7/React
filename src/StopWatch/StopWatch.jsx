@@ -12,7 +12,7 @@ let reset=()=>{
     setIsRunning(false);
 }
 let startStop=()=>{
-    console.log(isRunning);
+    // console.log(isRunning);
     setIsRunning(!isRunning);
 }
 
@@ -39,6 +39,7 @@ let timeFormate=(seconds)=>{
 return `${String(hours).padStart(2,'0')}:${String(minutes).padStart(2,'0')}:${String(remainingSec).padStart(2,'0')}`
 }
     return(
+
         <div style={{width:"99vw",height:"99vh",display:"flex",justifyContent:"center",alignItems:"center"}}>
         <div className="container" style={{border:'2px solid black', width:"280px", justifyItems:"center", display:"flex", flexDirection:"column", alignItems:"center", backgroundColor:"pink", borderRadius:"20px"}}>
 

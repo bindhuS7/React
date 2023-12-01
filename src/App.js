@@ -33,32 +33,33 @@ function App() {
 //   // <Child2/>
 //   // </>
 //   /******************************UseMemo */
-//   // <UseMemo/>
+  // <UseMemo/>
 //   /**********************UseEffect and UseLayoutEffect */
 
 //   // <UseEffect/>
-// /***************************UseImperative */
-// // {/* <UseImperativeParent/> */}
+
+/***************************UseImperative */
+// {/* <UseImperativeParent/>  */}
 
 // /***************************Redux */
 // {/* <Counter/> */}
 
-<>
+// {/* <> */}
 
-{/* <StopWatch/> */}
+//  <StopWatch/> 
 
-{/* <Calculator/> */}
-
-
-{/* <div className='container'>
-<SearchBar1 setResults={setResults}/>
-<SearchRelated results={results}/>
-</div> */}
+//  <Calculator/> 
 
 
+// {/* <div className='container'>
+// <SearchBar1 setResults={setResults}/>
+// <SearchRelated results={results}/>
+// </div> */}
 
-<WeatherApp/>
-</>
+
+
+ <WeatherApp/> 
+// </>
 
 
     );

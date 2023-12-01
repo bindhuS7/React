@@ -15,7 +15,7 @@ const WeatherApp = () => {
         speed:"18km/s"
     })
 let {place,temp,humidity,speed}=state
-    let api_key="Past apiKey  of your weatherMap account ";
+    let api_key="2e94f3a8f2bb3b2208c7d4c29faea4bd";
  const search=async()=>{
 const element1=document.getElementById("search");
 if(element1.value===''){

@@ -11,7 +11,7 @@ setState(!state)
     }))
   return (
     <div>
-        {state?<i>hi</i>:<i>hello</i>}
+        {state?"hi":<i>hello</i>}
         {/* <button>childButton</button> */}
     </div>
   )
